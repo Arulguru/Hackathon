@@ -1,0 +1,26 @@
+h1{
+	text-align: center;
+	color: red;
+}
+div>h1{
+	background-color: black;
+}
+a{
+	color: white;
+}
+a:hover,a:active{
+	background-color:black;
+	border-color:  white;
+}
+#image{
+	background-color: blue;
+}
+ul{
+	color: red;
+	font-size: 25px;
+	font-weight:bold; 
+}
+body{
+	background-image: url("images/taxi.jpg");
+
+}
