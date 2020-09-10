@@ -1,21 +1,139 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="styles.css">
+	
 	<title>CAB Booking</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style type="text/css">
+    	#me{
+    		border:1px solid black;
+	position: relative;
+	background-color: #737373;
+	width:80px;
+	height:30px;
+	right:41px;
+	bottom: 1px;
+	}
+    </style>
 </head>
 <body>
-	<div><h1>CabsCBE</h1></div>
-	<!-- <div id="image"><img src="images/CABbooking.jpg" width="1080px" height=480px> <p>arul</p></div>
- -->
-	<ul id="#box">
-		<li><a href="#menu">Menu Bar</a></li>
-		<li><a href="#book">Book Cab</a></li>
-		<li><a href="#carpool">Carpool</a></li>
-		<li><a href="#locate">locate Nearby Hubs</a></li>
-	</ul>
+	<div class ="head"><a href="guru.html" class="icons"><span class="glyphicon glyphicon-home"></span></a><a href="https://mail.google.com/" class="icons"><span class="glyphicon glyphicon-envelope"></span></a>CabsCBE</div>
+
+ 	<div class="container-fluid text-center" >
+ 		<div class="row content">
+ 			<div class="col-sm-3 sidenav">
+ 				<div id="leftpane">
+					<ul id="#box" style="border: 3px solid black;">
+						<div style="font-size: 25px" id="menu"><p id="me">MENU</p></div>
+						<li><a href="wallet.html"><div>Wallet</div></a></li>
+						<li><a href="bookCab.html"><div>Book Cab</div></a></li>
+						<li><a href="carpool.html"><div>Carpool</div></a></li>
+						<li><a href="#locate"><div>Locate Nearby Hubs</div></a></li>
+					</ul>
+					<hr>
+					<div id="quick">QUICK PANE</div>
+					<div class="dropdown">
+					    <button class="btn btn-default dropdown-toggle" type="button" id="pickup" data-toggle="dropdown">PickUp
+					    <span class="caret"></span></button>
+					    <ul class="dropdown-menu" role="menu" aria-labelledby="pickup">
+					      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Location1</a></li>
+					      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Location2</a></li>
+					      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Location3</a></li>
+					      <li role="presentation" class="divider"></li>
+					      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Default</a></li>
+					    </ul>
+					</div>
+					<div class="dropdown">
+					    <button class="btn btn-default dropdown-toggle" type="button" id="drop" data-toggle="dropdown">Drop
+					    <span class="caret"></span></button>
+					    <ul class="dropdown-menu" role="menu" aria-labelledby="drop">
+					      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Location1</a></li>
+					      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Location2</a></li>
+					      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Location3</a></li>
+					      <li role="presentation" class="divider"></li>
+					      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Default</a></li>
+					    </ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-6 text-right" id="loginBox" >
+				<div class="form-group text-left">
+				  <label for="usr">Name:</label>
+				  <input type="text" class="form-control" id="usr">
+				</div>
+				<div class="form-group text-left">
+				  <label for="pwd">Password:</label>
+				  <input type="password" class="form-control" id="pwd">
+				</div>
+				<button type="button" class="btn btn-primary">login</button>
+			</div>
+
+			<div class="col-sm-3">
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+				  <ol class="carousel-indicators">
+				    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#myCarousel" data-slide-to="1"></li>
+				    <li data-target="#myCarousel" data-slide-to="2"></li>
+				  </ol>
+
+
+					<div class="carousel-inner">
+					    <div class="item active">
+					      <img src="images/corona1.png" alt="awareness">
+					    </div>
+
+					    <div class="item">
+					      <img src="images/2corona.jpg" alt="awareness2">
+					    </div>
+
+					    <div class="item">
+					      <img src="images/corona3.jpg" alt="awareness3">
+					    </div>
+					</div>
+
+				  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<hr>
+		<div class="container-fluid">
+			<div class="row content foot">
+				<div class="col-sm-12 text-center" id="quote" style="font-size: 17px"><span >
+					" The Quickest and Cleanest Taxi service of CBE"</span>
+				</div>
+
+				<div class="col-sm-3">
+					<a href="" style="color: white">terms and policies</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="" style="color: white">rate us</a>
+				</div>
+				<div class="col-sm-3">
+				</div>
+			</div>
+		</div>	
+	</footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+
 </body>
 </html>

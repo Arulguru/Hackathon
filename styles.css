@@ -1,26 +1,146 @@
-h1{
+.head{	
+	position: relative;
+	
+	font-weight: bolder;
 	text-align: center;
-	color: red;
+	color: #737373;
+	background-color:#ffff66 ;
+	font-size: 30px;
 }
-div>h1{
-	background-color: black;
+.icons{position: relative;
+	padding: 20px 10px;
+	right:500px;
 }
-a{
-	color: white;
+li>a{
+	color: #ffff66;
+	font-size: 25px;
+	font-family: "Lucida Console"
 }
-a:hover,a:active{
-	background-color:black;
+label{
+	font-family:courier, cursive;
+	font-size: 30px;
+	font-weight: bold;
+	color: #ffff66;
+	background-color: #737373;
+	border: 1px solid black;
+	box-shadow: 2px 4px;
+}
+a>div:hover,a>div:active{
+	background-color: #737373;
 	border-color:  white;
+	color: white;
 }
 #image{
 	background-color: blue;
 }
-ul{
-	color: red;
-	font-size: 25px;
-	font-weight:bold; 
+ul{ 
+	color:blue;	
+	padding-right: 5px;
+}
+#leftpane{
+	border: 1px solid white;
+	padding: 10px;
+	margin-top:20px;
 }
 body{
 	background-image: url("images/taxi.jpg");
 
 }
+#pickup{
+	margin:20px;
+	font-size: 20px;
+	color: #737373;
+}
+#drop{
+	margin:20px;
+	font-size: 20px;
+	color: #737373;
+}
+#quick{
+	font-family:courier;
+	font-size: 25px;
+	font-style:italic;
+	font-weight: bold;
+	color: #ffff66;
+	background-color: #737373;
+	box-shadow: 2px 5px #ffff66;
+	animation: mymove 3s infinite;
+}
+@keyframes mymove {
+  from {background-color: #737373;}
+  to {background-color: red;}
+}
+#loginBox{
+	margin-top:20px;
+	margin-left: 30px;
+	border: 3px solid black;
+	color: #ffff66;
+	box-shadow: 3px 7px;
+	width: 500px;
+}
+.subHead{
+	background-color: #737373;
+	font-size: 25px;
+	color:#ffff66;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+}
+.mapouter{
+	margin: 10px;
+}
+#pals{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px;
+    color: #ffff66;
+    font-family: courier;
+
+}
+.card{
+	position: relative;
+	box-shadow: 3px 6px #ffff66;
+	padding: 10px;
+	border:2px solid black;
+	font-size: 15px;
+	color:white;
+	font-weight: bold;
+	float:left;
+	margin: 20px;
+}
+.glyphicon-phone{
+	margin:10px;
+	right:10px;
+}
+#myCarousel{
+	margin:20px;
+}
+
+.foot{
+	background-blend-mode: lighten;
+	font-size: 15px;
+	font-weight: bold;
+	opacity: 2;
+	color: black;
+}
+
+#quote span{
+	font-family: "Lucida Console"
+	background-color:red;
+}
+
+.payOnline{
+	font-size: 20px
+	margin:60px;
+}
+
+#menu{
+	font-weight:bold;
+	position: relative;
+
+}
+#me{
+	position: relative;
+	background-color: red;
+}
+ 
