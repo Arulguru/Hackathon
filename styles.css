@@ -30,6 +30,9 @@ a>div:hover,a>div:active{
 	border-color:  white;
 	color: white;
 }
+#bike:hover{
+	border-color: white;
+}
 #image{
 	background-color: blue;
 }
@@ -62,9 +65,11 @@ body{
 	font-style:italic;
 	font-weight: bold;
 	color: #ffff66;
+
 	background-color: #737373;
 	box-shadow: 2px 5px #ffff66;
 	animation: mymove 3s infinite;
+	border:1px solid black;
 }
 @keyframes mymove {
   from {background-color: #737373;}
@@ -143,4 +148,12 @@ body{
 	position: relative;
 	background-color: red;
 }
+#content{
+	font-weight:bold;
+	color:white;
+}
  
+#bike{
+
+	border:2px solid black;
+}
