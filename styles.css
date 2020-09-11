@@ -95,14 +95,23 @@ body{
   to {background-color: red;}
 }
 #loginBox{
+	position: relative;
 	margin-top:20px;
 	margin-left: 30px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	border: 3px solid black;
 	color: #ffff66;
 	box-shadow: 3px 7px;
-	height:;
 }
+
+#contents{
+	position: relative;
+	font-weight:bold;
+	color:white;
+	font-size: 30px;
+
+}
+
 .subHead{
 	background-color: #737373;
 	font-size: 25px;
@@ -168,10 +177,7 @@ body{
 	position: relative;
 	background-color: red;
 }
-#contents{
-	font-weight:bold;
-	color:white;
-}
+
  
 img:hover,img:active{
 	background-color: white;
