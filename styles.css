@@ -205,3 +205,18 @@ iframe{
 	}
 
 }
+@media(max-width: 767px){
+	#leftpane{
+		width: 100%;
+
+	}
+	#loginBox{
+		width: 90%;
+	}
+	#me{
+		font-size: 18px;
+	}
+}
+#cabtile{
+	margin-bottom: 10px;
+}
