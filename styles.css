@@ -31,7 +31,7 @@ a>div:hover,a>div:active{
 	color: white;
 }
 #bike:hover{
-	border-color: white;
+	color: white;
 }
 #image{
 	background-color: blue;
@@ -78,6 +78,7 @@ body{
 #loginBox{
 	margin-top:20px;
 	margin-left: 30px;
+	margin-bottom: 10px;
 	border: 3px solid black;
 	color: #ffff66;
 	box-shadow: 3px 7px;
@@ -153,7 +154,30 @@ body{
 	color:white;
 }
  
-#bike{
+img:hover,img:active{
+	background-color: white;
+	margin-top:10px;	
+}
 
-	border:2px solid black;
+iframe{
+	margin:10px;
+	width:400px;
+	height:400px;
+	border:5px solid black;
+}
+#getcab{
+	border:2px solid white;
+	font-size: 25px;
+	font-weight: bold;
+	color:black;
+	font-family: "Lucida Console";
+}
+#feespec{
+
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+}
+#feespec:hover,#feespec:active{
+	background-color: black;
 }
