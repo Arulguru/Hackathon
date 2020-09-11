@@ -7,9 +7,26 @@
 	background-color:#ffff66 ;
 	font-size: 30px;
 }
+@media(min-width:1200px ){
 .icons{position: relative;
 	padding: 20px 10px;
 	right:500px;
+}
+}
+@media(min-width: 767px) and (max-width:1199px ){
+	.icons{
+		position: relative;
+		float:left;
+		padding: 20px 10px;
+	}
+}
+@media(max-width:767px){
+		.icons{
+		position: relative;
+		float:left;
+		padding: 20px 10px;
+		bottom: 12px;
+	}
 }
 li>a{
 	color: #ffff66;
@@ -180,4 +197,11 @@ iframe{
 }
 #feespec:hover,#feespec:active{
 	background-color: black;
+}
+
+@media(min-width:767px) and (max-width:1300px) {
+	#cabtile{
+		width:33%;
+	}
+
 }
