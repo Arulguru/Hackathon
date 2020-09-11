@@ -7,17 +7,19 @@
 	background-color:#ffff66 ;
 	font-size: 30px;
 }
-@media(min-width:1200px ){
-.icons{position: relative;
-	padding: 20px 10px;
+@media(min-width:1200px){
+.icons{
+	position: relative;
+	padding:  10px;
 	right:500px;
+	bottom: 20px;
 }
 }
 @media(min-width: 767px) and (max-width:1199px ){
 	.icons{
 		position: relative;
 		float:left;
-		padding: 20px 10px;
+		padding: 5px 10px;
 	}
 }
 @media(max-width:767px){
@@ -30,7 +32,7 @@
 }
 li>a{
 	color: #ffff66;
-	font-size: 25px;
+	font-size: 20px;
 	font-family: "Lucida Console"
 }
 label{
@@ -99,7 +101,7 @@ body{
 	border: 3px solid black;
 	color: #ffff66;
 	box-shadow: 3px 7px;
-	
+	height:;
 }
 .subHead{
 	background-color: #737373;
@@ -136,7 +138,7 @@ body{
 	right:10px;
 }
 #myCarousel{
-	margin:20px;
+	margin:10px;
 }
 
 .foot{
@@ -166,14 +168,14 @@ body{
 	position: relative;
 	background-color: red;
 }
-#content{
+#contents{
 	font-weight:bold;
 	color:white;
 }
  
 img:hover,img:active{
 	background-color: white;
-	margin-top:10px;	
+	margin-right:25px;	
 }
 
 iframe{
